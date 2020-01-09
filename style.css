@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    background: black;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    padding:10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+.col1{
+     /* width: 500px;  */
+    /* min-width: 500px;  */
+    height: 50%; 
+    background: red;
+    flex:1 1 400px;
+    padding: 20px;
+    display: flex;
+
+}
+.col2{
+     /* width: 300px;  */
+    height: 50%; 
+    background: blue;
+    flex:1 1 300px; 
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+/* .col3{
+     width: 200px;  
+    height: 50%; 
+    background: yellow;
+    
+} */
+.clo2-A{
+    background: yellow;
+    width: 90%;
+    height: 80px;
+    
+}
+.clo2-B{
+    background: pink;
+        width: 90%;
+    height: 80px;
+
+}
+.clo2-C{
+    background: green;
+        width: 90%;
+    height: 80px;
+
+}
